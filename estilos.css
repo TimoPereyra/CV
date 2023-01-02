@@ -487,6 +487,7 @@ progress::-moz-progress-bar{
     height: var(--header-height);
     background-color: var(--second-color);
     padding: 1rem;
+    padding-bottom: 3rem;
 }
 
 .header >.container{
@@ -497,9 +498,14 @@ progress::-moz-progress-bar{
 .logo a{
     color: var(--first-color);
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1rem;
     text-decoration: none;
 
+}
+.logoInsta{
+    background-color: #f3f3f3;
+    border-radius: 30%;
+    font-size: 0.5rem;
 }
 
 .portfolio-card{
@@ -532,6 +538,10 @@ progress::-moz-progress-bar{
     pointer-events: none;
     transition: all 0.5s ease-in-out;
 
+}
+.portfolio-card-tittle{
+    color: var(--second-color);
+    text-decoration: underline wavy var(--gray-color);
 }
 .portfolio-card:hover .portfolio-card-info{
     opacity: 1;
